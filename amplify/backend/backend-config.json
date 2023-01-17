@@ -6,6 +6,14 @@
       "type": "manual"
     }
   },
+  "auth": {
+    "connecttranslateblog690eb6d1": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
   "predictions": {
     "translateText0519c50f": {
       "providerPlugin": "awscloudformation",
