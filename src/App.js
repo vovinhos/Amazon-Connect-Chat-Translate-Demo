@@ -9,7 +9,7 @@ import 'semantic-ui-less/semantic.less';
 // Import components
 import Ccp from "./components/ccp";
 
-Auth.configure(awsconfig);
+// Auth.configure(awsconfig);
 
 class App extends Component {
        render() {
